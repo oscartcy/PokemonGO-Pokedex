@@ -1,5 +1,5 @@
-# Pokémon GO Pokédex
-Pokédex of Pokémon GO in JSON
+# Pokémon GO Pokédex (Hong Kong Ver.)
+Pokédex of Pokémon GO in JSON, with Pokémon name in Hong Kong naming
 
 # Elements
 *   **id**: *Identification Number*
@@ -16,6 +16,7 @@ Pokédex of Pokémon GO in JSON
 *   **weakness**: *Types of Pokémon this Pokémon is weak to* **(NEW)**
 *   **next_evolution**: *Number and Name of successive evolutions of Pokémon* **(NEW)**
 *   **prev_evolution**: *Number and Name of previous evolutions of Pokémon* **(NEW)**
+*   **name_hk**: *Pokémon name with Hong Kong naming*
 
 ## Multipliers
 
@@ -25,3 +26,6 @@ Example usage of multipliers:
 I want to evolve my Bulbasaur with 200 CP. The future Ivysaur will have `365 = 200 x 1.58` CP.
 
 If there are two or more values in `multipliers` is because there is a maximum and minimum of evolution CP possible.
+
+## Reference
+*	http://zh-hk.pokemon.wikia.com/wiki/精靈圖鑑
